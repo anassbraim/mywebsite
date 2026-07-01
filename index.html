@@ -1,0 +1,807 @@
+
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>Anass Braim - Personal Portfolio</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Place favicon.ico in the root directory -->
+   <link rel="shortcut icon" type="image/png" href="assets/img/logo/favicon.png">
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="assets/css/custom-animation.css">
+   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+   <link rel="stylesheet" href="assets/css/slick.css">
+   <link rel="stylesheet" href="assets/css/nice-select.css">
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <link rel="stylesheet" href="assets/css/hover-reveal.css">
+   <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+   <link rel="stylesheet" href="assets/css/spacing.css">
+   <link rel="stylesheet" href="assets/css/main.css">
+
+   <!-- Boxicons CSS -->
+   <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+   <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+ 
+</head>
+
+<body id="body" class="tp-magic-cursor">
+   <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+
+
+   <!-- pre loader area start -->
+   <div id="loading">
+      <div id="loading-center">
+         <div id="loading-center-absolute">
+            <!-- loading content here -->
+            <div class="preloader__content text-center">
+               <div class="preloader__top-text d-flex align-items-center justify-content-between">
+                  <p class="preloader__loading text-start">Loading</p>
+                  <h2 id="tp-loading-number" class="text-end">0</h2>
+               </div>
+               <div id="tp-loading-bar" class="preloader__bar">
+                  <div id="tp-loading-line" class="preloader__bar-inner"></div>
+               </div>
+            </div>
+         </div>
+      </div>  
+   </div>
+   <!-- pre loader area end -->
+
+   <!-- Begin magic cursor 
+   ======================== -->
+   <div id="magic-cursor">
+      <div id="ball"></div>
+   </div>
+   <!-- End magic cursor -->
+
+   <!-- back to top start -->
+   <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn">
+         <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+               stroke-linejoin="round" />
+         </svg>
+      </button>
+   </div>
+   <!-- back to top end -->
+
+   <!-- offcanvas area end -->
+   <div class="tp-offcanvas-area">
+      <div class="tp-offcanvas-bg is-left"></div>
+      <div class="tp-offcanvas-bg is-right d-none d-md-block">
+         <div class="tp-offcanvas-shape">
+            <img class="tp-offcanvas-shape-1" src="assets/img/offcanvas/bg-shape-2.png" alt="">
+         </div>
+      </div>
+      <div class="tp-offcanvas-wrapper-2">
+         <div class="tp-offcanvas-left">
+            <div class="tp-offcanvas-left-wrap d-flex justify-content-between align-items-center">
+               <div class="tpoffcanvas__logo">
+                  <img class="logo-white" src="assets/img/logo/logo.png" alt="">
+                  <img class="logo-black" src="assets/img/logo/logo.png" alt="">
+               </div>
+               <div class="tp-offcanvas-close d-md-none text-end">
+                  <button class="tp-offcanvas-close-btn tp-offcanvas-close-btn">
+                     <span class="text">
+                        <span>close</span>
+                     </span>
+   
+                     <span class="d-inline-block">
+                        <span>
+                           <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M9.80859 9.80762L28.1934 28.1924" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M9.80859 28.1924L28.1934 9.80761" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
+                        </span>
+                     </span>
+                     
+                  </button>
+               </div>
+            </div>
+            <div class="tp-main-menu-mobile menu-hover-active counter-row">
+               <nav></nav>
+            </div>
+         </div>
+         <div class="tp-offcanvas-right d-none d-md-block">
+            <div class="tp-offcanvas-close text-end">
+               <button class="tp-offcanvas-close-btn tp-offcanvas-close-btn">
+                  <span class="text">
+                     <span>close</span>
+                  </span>
+
+                  <span class="d-inline-block">
+                     <span>
+                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                           xmlns="http://www.w3.org/2000/svg">
+                           <path d="M9.80859 9.80762L28.1934 28.1924" stroke="currentColor" stroke-width="1.5"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M9.80859 28.1924L28.1934 9.80761" stroke="currentColor" stroke-width="1.5"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                     </span>
+                  </span>
+                  
+               </button>
+            </div>
+            <div class="tp-offcanvas-right-inner d-flex flex-column justify-content-between h-100">
+               
+               <div class="tpoffcanvas__right-info">
+                  <div class="tpoffcanvas__tel">
+                     <a href="tel:61404093954">+212 647814570</a>
+                  </div>
+                  <div class="tpoffcanvas__mail">
+                     <a href="mailto:hellocontact@diego.com">
+                        helloanass@hotmail.com</a>
+                  </div>
+                  <div class="tpoffcanvas__text">
+                     <p>Need support? Contact me anytime</p>
+                  </div>
+               </div>
+               
+               <div class="tpoffcanvas__social-link">
+                  <ul>
+                     <li><a href="https://www.linkedin.com/in/anassbraim/" target="_blank">Linkedin</a></li>
+                     <li><a href="https://x.com/anassbraim" target="_blank">X</a></li>
+                     <li><a href="https://www.instagram.com/anassbraim/" target="_blank">Instagram</a></li>
+                     <li><a href="https://github.com/anassbraim/" target="_blank">Github</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- offcanvas area start -->
+
+   <!-- header area start -->
+   <header>
+      <div class="tp-header-3__area tp-header-transparent tp-header-3__ptlr">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+               <div class="col-xl-6 col-lg-6 col-md-6 col-6">
+                  <div class="tp-header-3__logo">
+                     <a class="logo-white" href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                     <a class="logo-black" href="index.html"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                  </div>
+               </div>
+               <div class="col-xl-6 d-none">
+                  <div class="tp-header-4__menu text-center">
+                     <nav class="tp-main-menu-content counter-row">
+                        <ul>
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="about.html">About</a></li>
+                           <li><a href="contact.html">Portfolio</a></li>
+                           <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-6">
+                  <div class="tp-header-3__right-action d-flex align-items-center justify-content-end">
+                     <div class="tp-theme-toggle-single">
+                        <label class="tp-theme-toggle-main themepure-theme-toggle">
+                           <span class="dark text-align: center; height: 100vh; line-height: 100vh">
+                              <i width="14px" height="14px" class='bx bx-moon' style="font-weight: 200; opacity: 0.8; color: #ffff;"></i>
+                           </span>
+                           
+
+                           <input type="checkbox" class="themepure-theme-toggle-input">
+                           <span class="light">
+                              <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M10.0581 14.2166C12.3522 14.2166 14.212 12.3569 14.212 10.0628C14.212 7.7687 12.3522 5.90897 10.0581 5.90897C7.76403 5.90897 5.9043 7.7687 5.9043 10.0628C5.9043 12.3569 7.76403 14.2166 10.0581 14.2166Z"
+                                    fill="#FFC05A" />
+                                 <path d="M10 1V2.63636" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M10 17.3637V19.0001" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M3.63477 3.63455L4.79658 4.79637" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M15.2031 15.2036L16.3649 16.3654" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M1 10.0001H2.63636" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M17.3652 10.0001H19.0016" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M3.63477 16.3654L4.79658 15.2036" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M15.2031 4.79637L16.3649 3.63455" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </span>
+                        </label>
+                     </div>
+                     <div class="tp-header-3__btn d-none d-md-block">
+                        <a class="tp-btn-white" href="contact.html">
+                           <span class="text">Hire me</span>
+                           <span>
+                              <i width="14" height="14" class='bx  bxs-send-alt'  ></i> 
+                           </span>
+                        </a>
+                     </div>
+                     <div class="tp-header-3__bar">
+                        <button class="tp-menu-bar tp-offcanvas-open-btn">
+                           <i width="30px" height="30px" class='bxs-menu-wider' style="font-weight: 200; opacity: 0.8; color: #ffff; font-size: 40px;"></i>
+                           
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- header area end -->
+
+   <!-- header area start -->
+   <header>
+      <div class="tp-header-3__area tp-header-transparent tp-header-3__ptlr tp-int-menu tp-header-sticky-cloned">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+               <div class="col-xl-6 col-lg-6 col-md-6 col-6">
+                  <div class="tp-header-3__logo">
+                     <a class="logo-white" href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                     <a class="logo-black" href="index.html"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                  </div>
+               </div>
+               <div class="col-xl-6 d-none">
+                  <div class="tp-header-4__menu text-center">
+                     <nav class="tp-main-menu-content counter-row">
+                        <ul>
+                           <li class="has-dropdown">
+                              <a href="index.html">Home</a>
+                              <ul class="tp-submenu submenu">
+                                 <li><a href="index.html">Freelancer</a></li>
+                                 <li><a href="index-5.html">Fashion Designer</a></li>
+                                 <li><a href="index-4.html">Photographer</a></li>
+                                 <li><a href="index-2.html">Interface Designer</a></li>
+                                 <li><a href="index-3.html">Web Developer</a></li>
+                                 <li><a href="home-8-slider.html">Slider Metro</a></li>
+                                 <li><a href="home-7-slider.html">Slider Elegant</a></li>
+                                 <li><a href="home-6-slider.html">Slider Classic</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="about-me.html">About Me</a></li>
+                           <li class="has-dropdown"><a href="service.html">Services</a>
+                              <ul class="tp-submenu submenu">
+                                 <li><a href="service.html">Service</a></li>
+                                 <li><a href="service-details.html">Service Details</a></li>
+                              </ul>
+                           </li>
+                           <li class="has-dropdown">
+                              <a href="portfolio.html">Portfolio</a>
+                              <ul class="tp-submenu submenu">
+                                 <li><a href="portfolio.html">Porfolio</a></li>
+                                 <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                 <li><a href="portfolio-details-2.html">Portfolio Details 02</a></li>
+                                 <li><a href="portfolio-details-3.html">Portfolio Details 03</a></li>
+                              </ul>
+                           </li>
+                           <li class="has-dropdown">
+                              <a href="blog.html">Blog</a>
+                              <ul class="tp-submenu submenu">
+                                 <li><a href="blog.html">Blog List</a></li>
+                                 <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+                                 <li><a href="blog-details.html">Blog Details</a></li>
+                                 <li><a href="blog-details-2.html">Blog Details 02</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-6">
+                  <div class="tp-header-3__right-action d-flex align-items-center justify-content-end">
+                     <div class="tp-theme-toggle-single">
+                        <label class=" themepure-theme-toggle">
+                           <span class="dark">
+                           </span>
+                           <input type="checkbox" class="themepure-theme-toggle-input">
+                           <span class="light">
+                              <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M10.0581 14.2166C12.3522 14.2166 14.212 12.3569 14.212 10.0628C14.212 7.7687 12.3522 5.90897 10.0581 5.90897C7.76403 5.90897 5.9043 7.7687 5.9043 10.0628C5.9043 12.3569 7.76403 14.2166 10.0581 14.2166Z"
+                                    fill="#FFC05A" />
+                                 <path d="M10 1V2.63636" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M10 17.3637V19.0001" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M3.63477 3.63455L4.79658 4.79637" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M15.2031 15.2036L16.3649 16.3654" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M1 10.0001H2.63636" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M17.3652 10.0001H19.0016" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M3.63477 16.3654L4.79658 15.2036" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M15.2031 4.79637L16.3649 3.63455" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </span>
+                        </label>
+                     </div>
+                     <div class="tp-header-3__btn d-none d-md-block">
+                        <a class="tp-btn-white" href="contact.html">
+                           <span class="text">Let’s Talk</span>
+                           <span>
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M4.9297 10.3651C5.12061 10.2162 5.29376 10.043 5.64006 9.69671L9.95722 5.37954C10.0616 5.27517 10.0138 5.0954 9.87438 5.04702C9.36479 4.87022 8.70189 4.53829 8.0818 3.9182C7.46171 3.29811 7.12978 2.63521 6.95299 2.12562C6.9046 1.98617 6.72483 1.9384 6.62046 2.04278L2.30329 6.35994L2.30328 6.35995C1.95699 6.70624 1.78385 6.87939 1.63494 7.0703C1.45928 7.29551 1.30868 7.53919 1.18581 7.79701C1.08164 8.01558 1.00421 8.24789 0.849336 8.71249L0.649225 9.31283L0.331026 10.2674L0.0326691 11.1625C-0.0435433 11.3911 0.0159628 11.6432 0.186379 11.8136C0.356795 11.984 0.608868 12.0435 0.837505 11.9673L1.73258 11.669L2.68717 11.3508L3.28751 11.1507C3.75211 10.9958 3.98442 10.9184 4.20299 10.8142C4.46082 10.6913 4.70449 10.5407 4.9297 10.3651Z" fill="currentcolor"/>
+                                 <path d="M11.3089 4.02783C12.2304 3.10641 12.2304 1.61249 11.3089 0.691067C10.3875 -0.230356 8.89359 -0.230356 7.97217 0.691067L7.83337 0.82986C7.69944 0.963792 7.63876 1.15087 7.67222 1.3373C7.69327 1.45458 7.73229 1.62603 7.80327 1.83063C7.94522 2.23979 8.21329 2.77689 8.7182 3.2818C9.22311 3.78671 9.76021 4.05478 10.1694 4.19673C10.374 4.26772 10.5454 4.30673 10.6627 4.32778C10.8491 4.36124 11.0362 4.30056 11.1701 4.16663L11.3089 4.02783Z" fill="currentcolor"/>
+                              </svg>
+                           </span>
+                        </a>
+                     </div>
+                     <div class="tp-header-3__bar">
+                        <button class="tp-menu-bar tp-offcanvas-open-btn">
+                           <svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M31 1H1" stroke="currentcolor" stroke-width="2" stroke-linecap="round"/>
+                              <path d="M31 9H1" stroke="currentcolor" stroke-width="2" stroke-linecap="round"/>
+                           </svg>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- header area end -->
+
+
+
+   <div id="smooth-wrapper" class="black-bg-3">
+      <div id="smooth-content">
+
+         <main>
+
+            <!-- hero area start -->
+            <div class="tp-hero-3__area black-bg-3 tp-hero-3__ptb z-index-1 smooth p-relative tp-btn-trigger-3">
+
+               <div class="tp-hero-3__shape-1">
+                  <img src="assets/img/hero/x.png" alt="">
+               </div>
+               <div class="tp-hero-3__shape-2">
+                  <img src="assets/img/hero/y.png" alt="">
+               </div>
+
+               <div class="tp-isomeric-grid d-none">
+                  <div class="tp-isomeric-grid-item tp-isomeric-grid-horizontal">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+                  <div class="tp-isomeric-grid-item tp-isomeric-grid-vertical">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+               <div class="tp-hero-3__social-wrap d-none d-lg-inline-flex">
+                  <a href="https://www.linkedin.com/in/anassbraim/" target="_blank">Linkedin</a>
+                     <a href="https://x.com/anassbraim" target="_blank">X</a>
+                     <a href="https://www.instagram.com/anassbraim/" target="_blank">Instagram</a>
+                     <a href="https://github.com/anassbraim/" target="_blank">Github</a>
+               </div>
+               <a href="#service">
+                  <div class="tp-hero-3__scrool-down d-none d-lg-inline-flex">
+                     <span class="text">Scroll</span>
+                     <span>
+                        <svg width="14" height="93" viewBox="0 0 14 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M14 85.8995C10.1308 85.8995 6.9999 88.9319 6.9999 92.6793" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                           <path d="M7 92.6793C7 88.9319 3.86911 85.8995 -0.000102413 85.8995" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                           <path d="M7 0L7 90" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                        </svg>
+                     </span>
+                  </div>
+               </a>
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-12">
+                        <div class="tp-hero-3__content">
+                           <h3 class="tp-hero-3__title tp-char-animation">
+                              <span>
+                                 <video autoplay="" playsinline="">
+                                    <source src="https://template.wphix.com/video/diego-video.mp4" type="video/mp4">
+                                 </video>
+                              </span>
+                              Frontend Developer
+                           </h3>
+                        </div>
+                        <div class="tp-hero-3__btn-box tp_wrap_anim d-flex align-items-center justify-content-start justify-content-md-center">
+                           <div class="tp-btn-bounce-3">
+                              <a class="tp-btn-blue" href="portfolio.html">
+                                 <span class="text">Get Started</span>
+                                 <span class="icon">
+                                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M1 1L10 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M10 1V10H1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                 </span>
+                              </a>
+                           </div>
+                           <p >Hello world, Anass Braim Web Developer specialized in frontend development.<br>
+                           Unlock a new level with me!</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- hero area end -->
+
+            <!-- service area start -->
+            <div id="service" class="tp-service-3__area services-panel-area tp-service-3__overlay-bg black-bg-2 pt-150 pb-125 z-index-1 cursor-style">
+
+               <div class="tp-service-3__circle-img">
+                 <span class="text-img">
+                  <img src="assets/img/footer/footer-circle-img.png" alt="">
+                 </span>
+                  <div class="shape">
+                     <svg width="260" height="70" viewBox="0 0 260 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M68.7285 34.1352C48.3941 10.6976 13.8796 0.514191 0 0.514191C93.4783 0.514191 276.081 -0.642708 258.863 0.514191C236.79 1.99739 217.224 6.94161 191.137 34.1352C140.468 93.9609 98.3272 68.2507 68.7285 34.1352Z" fill="currentcolor"/>
+                     </svg>    
+                  </div>                 
+               </div>
+
+               <div class="tp-service-3__shape-1">
+                  <img src="assets/img/portfolio/shape-1.png" alt="">
+               </div>
+               <div class="tp-service-3__shape-2 d-none d-lg-block">
+                  <img src="assets/img/portfolio/shape-2.png" alt="">
+               </div>
+               <div class="tp-service-3__shape-3">
+                  <img data-speed="1.2" src="assets/img/portfolio/star.png" alt="">
+               </div>
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-5 col-lg-5">
+                        <div class="tp-service-3__title-box services-panel-pin">
+                           <span class="tp-section-subtitle-3 tp_title_anim">Services</span>
+                           <h3 class="tp-section-title-3 tp_title_anim">What exactly<br>I can do it</h3>
+                           <p class="tp_title_anim">I am a passionate Front-End Developer with expertise in creating responsive,
+                           user-friendly, and visually appealing websites. I specialize in converting designs into clean,
+                           efficient code using HTML, CSS, and JavaScript.                         </p>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-7 col-lg-7">
+                        <div class="tp-service-3__right-wrap">
+                           <div class="tp-service-3__item d-flex align-items-start mb-25 services-panel">
+                              <div class="tp-service-3__icon">
+                                 <span>
+                                    <span>
+                                    <i class='bx  bx-brush' style="font-weight: 200; opacity: 0.8; font-size: 120px; color: #ffff;"></i>
+                                 </span> 
+                                 </span>
+                              </div>
+                              <div class="tp-service-3__content">
+                                 <h3 class="tp-service-3__content-title"><a href="service-details.html">Responsive Web<br>Design</a></h3>
+                                 <p>Ensuring websites look and work flawlessly across all devices and screen sizes</p>
+                                 <div class="tp-service-3__content-tag">
+                                    <span class="mr-5">HTML/CSS</span>
+                                    <span>Reactjs</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <!-- Service 01 Start-->
+                           <div class="tp-service-3__item d-flex align-items-start mb-25 services-panel">
+                              <!-- Service 01 - Icon -->
+                              <div class="tp-service-3__icon">
+                                 <span>
+                                    <i class='bx bx-bracket-curly' style="font-weight: 200; opacity: 0.8; font-size: 120px; color: #ffff;"></i>
+                                 </span>
+                              </div>
+                              <div class="tp-service-3__content">
+                                 <h3 class="tp-service-3__content-title"><a href="service-details.html">UI/UX Design<br>Implementation</a></h3>
+                                 <p>Converting designs into pixel-perfect, functional user interfaces.</p>
+                                 <div class="tp-service-3__content-tag">
+                                    <span class="mr-5">Figma</span>
+                                    <span>HTML/CSS</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- Service 01 END-->
+
+                           <div class="tp-service-3__item d-flex align-items-start mb-25 services-panel">
+                              <div class="tp-service-3__icon">
+                                 <span>
+                                    <i class='bx bx-rocket' style="font-weight: 200; opacity: 0.8; font-size: 120px; color: #ffff;"></i>
+                                 </span>
+                              </div>
+                              <div class="tp-service-3__content">
+                                 <h3 class="tp-service-3__content-title"><a href="service-details.html">Website<br>Optimization</a></h3>
+                                 <p>Enhancing website speed, performance, and SEO readiness.</p>
+                                 <div class="tp-service-3__content-tag">
+                                    <span class="mr-5">SEO Services</span>
+                                    <span>Wordpress</span>
+                                 </div>
+                              </div>
+                           </div>
+                           
+                           <div class="tp-service-3__btn-box">
+                              <a href="contact.html">Reach out to discover more services I offer.
+                                 <span>Hire me!</span></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- service area end -->
+
+            <!-- project area start -->
+            <div class="tp-project-3__area p-relative black-bg-3 pt-110">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-12">
+                        <div class="tp-project-3__title-box pb-30 text-center portfolio-sec-pin">
+                           <h3 class="tp-section-title-3 tp_title_anim">Portfolio</h3>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xl-12">
+                        <div class="tp-portfolio-item-wrapper-3">
+                           <div class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                              <a href="portfolio-details.html">
+                                 <img src="assets/img/portfolio/3/portfolio.png" alt="">
+                                 <span></span>
+                                 <div class="tp-portfolio-view-btn-3">
+                                    <span>View <br> Work</span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                              <a href="portfolio-details.html">
+                                 <img src="assets/img/portfolio/3/portfolio.png" alt="">
+                                 <span></span>
+                                 <div class="tp-portfolio-view-btn-3">
+                                    <span>View <br> Work</span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                              <a href="portfolio-details.html">
+                                 <img src="assets/img/portfolio/3/portfolio.png" alt="">
+                                 <span></span>
+                                 <div class="tp-portfolio-view-btn-3">
+                                    <span>View <br> Work</span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                              <a href="portfolio-details.html">
+                                 <img src="assets/img/portfolio/3/portfolio.png" alt="">
+                                 <span></span>
+                                 <div class="tp-portfolio-view-btn-3">
+                                    <span>View <br> Work</span>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- project area end -->
+
+            <!-- blog area start -->
+            <div class="tp-blog-3__area black-bg-3 pt-320 pb-50 fix">
+               <div class="container">
+                  <div class="tp-blog-3__title-wrap mb-60">
+                     <div class="row align-items-end">
+                        <div class="col-xl-6 col-lg-8 col-md-8">
+                           <div class="tp-blog-3__title-box">
+                              <h4 class="tp-section-title-3 tp_title_anim">Articles & Publications</h4>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-4 col-md-4">
+                           <div class="tp-blog-3__btn text-start text-md-end">
+                              <a class="tp-btn-blue" href="blog.html">
+                                 <span class="text"> View All Post</span>
+                                 <span class="icon">
+                                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M1 1L10 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M10 1V10H1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                 </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row gx-50">
+                     <div class="col-xl-6">
+                        <div class="tp-blog-3__item mb-70">
+                           <div class="tp-blog-3__content">
+                              <h4 class="tp-blog-3__content-title"><a href="blog-details-2.html">16 witty tips to get <br> six-figure clients on Dribbble</a></h4>
+                              <div class="tp-blog-3__meta-box mb-30 d-flex align-items-center justify-content-between">
+                                 <div class="tp-blog-3__category">
+                                    <span>Branding</span>
+                                 </div>
+                                 <div class="tp-blog-3__meta">
+                                    <span>October 3, 2022</span>
+                                    <span>7 min read</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tp-blog-3__thumb">
+                              <a href="blog-details.html"><img class="w-100" src="assets/img/blog/blog-3-1.jpg" alt=""></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-6">
+                        <div class="tp-blog-3__item mb-70">
+                           <div class="tp-blog-3__content">
+                              <h4 class="tp-blog-3__content-title"><a href="blog-details-2.html">Bluwalk redesign: sign-up <br> rate increased twice and counting</a></h4>
+                              <div class="tp-blog-3__meta-box mb-30 d-flex align-items-center justify-content-between">
+                                 <div class="tp-blog-3__category">
+                                    <span>Branding</span>
+                                 </div>
+                                 <div class="tp-blog-3__meta">
+                                    <span>October 3, 2022</span>
+                                    <span>7 min read</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tp-blog-3__thumb">
+                              <a href="blog-details.html"><img class="w-100" src="assets/img/blog/blog-3-2.jpg" alt=""></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- blog area end -->
+
+
+            </main>
+
+            <!-- footer area start -->
+            <footer>
+               <div class="tp-footer-3__wrapper tp-footer-3__overlay-bg black-bg-2 p-relative z-index-1 fix tp-mouse-move-btn-section cursor-style">
+                  <div class="tp-footer-3__shape-1">
+                     <img src="assets/img/footer/footer-shape.png" alt="">
+                  </div>
+                  <div class="tp-footer-3__area pt-120 pb-120">
+                     <div class="container">
+                        <div class="row align-items-center">
+                           <div class="col-xl-7 col-lg-7">
+                              <div class="tp-footer-3__title-box">
+                                 <span class="tp-footer-3__subtitle">Contact Me</span>
+                                 <h3 class="tp-footer-3__title tp_title_anim">Unlock a new level</h3>
+                              </div>
+                              <div class="tp-footer-3__widget">
+                                 <div class="tp-footer-3__widget-top d-flex align-items-center justify-content-between">
+                                    <div class="tp-footer-3__logo">
+                                       <a href="contact.html">
+                                          <img src="assets/img/logo/logo.png" alt="">
+                                       </a>
+                                    </div>
+                                    <div class="tp-footer-3__menu tp_title_anim">
+                                       <ul>
+                                          <li><a href="about-me.html">About</a></li>
+                                          <li><a href="portfolio.html">Works</a></li>
+                                          <li><a href="service.html">Services</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <div class="tp-footer-3__text">
+                                    <p class="tp_title_anim">
+                                        I’m a front-end developer dedicated to building responsive and appealing websites.                                         From creating new designs to implementing custom features, I turn ideas into modern digital experiences.
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xl-5 col-lg-5">
+                              <div class="tp-footer-3__link text-xxl-start text-center">
+                                 <a class="p-relative d-inline-block tp-mouse-move-btn" href="#">
+                                    <img src="assets/img/footer/foooter-btn.png" alt="">
+                                    <span>
+                                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M1 15L15 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M15 15V1H1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                       </svg>
+                                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M1 15L15 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M15 15V1H1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                       </svg>
+                                    </span>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tp-copyright-3__area">
+                     <div class="tp-copyright-3__border-top">
+                        <div class="container">
+                           <div class="row align-items-center">
+                              <div class="col-xl-3 col-lg-3 col-md-3">
+                                 <div class="tp-copyright-3__left text-center text-md-start">
+                                    <p>© 2025 Anass Braim.</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-9 col-lg-9 col-md-9 d-none d-md-block">
+                                 <div class="tp-copyright-3__social text-end">
+                                    <ul>
+                                       <li><a href="https://www.linkedin.com/in/anassbraim/" target="_blank"><i class="fa-brands fa-facebook-f"></i>Linkedin</a></li>
+                                       <li><a href="https://twitter.com/anassbraim" target="_blank"><i class="fa-brands fa-twitter"></i>X</a></li>
+                                       <li><a href="https://www.instagram.com/anassbraim/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                                       <li><a href="https://www.github.com/anassbraim/" target="_blank"><i class="fa-brands fa-github"></i>Github</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+            <!-- footer area end -->
+      </div>
+   </div>
+
+
+
+   <!-- JS here -->
+   <script src="assets/js/vendor/jquery.js"></script>
+   <script src="assets/js/bootstrap-bundle.js"></script>
+   <script src="assets/js/three.js"></script>
+   <script src="assets/js/gsap.js"></script>
+   <script src="assets/js/gsap-scroll-smoother.js"></script>
+   <script src="assets/js/gsap-scroll-trigger.js"></script>
+   <script src="assets/js/gsap-scroll-to-plugin.js"></script>
+   <script src="assets/js/gsap-split-text.js"></script>
+   <script src="assets/js/webgl.js"></script>
+
+   <script src="assets/js/swiper-bundle.js"></script>
+   <script src="assets/js/slick.js"></script>
+   <script src="assets/js/wow.js"></script>
+   <script src="assets/js/pagepiling.js"></script>
+   <script src="assets/js/headroom.min.js"></script>
+   <script src="assets/js/magnific-popup.js"></script>
+   <script src="assets/js/nice-select.js"></script>
+   <script src="assets/js/purecounter.js"></script>
+   <script src="assets/js/hammer.js"></script>
+   <script src="assets/js/matter.js"></script>
+   <script src="assets/js/throwable.js"></script>
+   <script src="assets/js/isotope-pkgd.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/ajax-form.js"></script>
+
+   <script src="assets/js/theme-settings.js"></script>
+   <script src="assets/js/animated-headline.js"></script>
+   <script src="assets/js/main.js"></script>
+   <script src="assets/js/tp-cursor.js"></script>
+
+</body>
+
+</html>
